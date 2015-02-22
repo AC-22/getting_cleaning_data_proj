@@ -9,6 +9,7 @@ The experiments have been carried out with a group of 30 volunteers within an ag
 * Take the activity names and IDs from activity_labels.txt and they are substituted in the dataset.
 *Generate a new tidy dataset with all the average measures for each subject and activity type
 * create the tidy.txt file using write.table().
+
 ### Variables
 * x_train, y_train, x_test, y_test, subject_train and subject_test contain the data from the downloaded files.
 * TrainData is created from x_train,y_train and subject_train
@@ -16,4 +17,4 @@ The experiments have been carried out with a group of 30 volunteers within an ag
 * ColMeanStd has the columns with mean and standard deviation.
 * Data is the constructed with the columns with mean and standard deviation.
 * The Activity field is added to Data
-* Finally, tidy contains the relevant averages which will be later stored in a tidy.txt file
+* Finally, tidy(Data frame) contains the relevant averages for each subject and activity type, which will be later stored in a tidy.txt file
