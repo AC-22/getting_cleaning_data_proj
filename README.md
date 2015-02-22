@@ -1,6 +1,8 @@
 ## Getting and Cleaning Data Project
 Purpose of the project is to demonstrate the ability to collect, work with, and clean a data set. This Repository Containg the R code and the code book for the Getting and cleaning Data course project.
+
 The dataset being used is: Human Activity Recognition Using Smartphones
+
 The Task is as follows:
 
 create one R script called run_analysis.R that does the following. 
